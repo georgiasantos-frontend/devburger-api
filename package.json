@@ -1,0 +1,32 @@
+{
+  "name": "devburger-api",
+  "version": "1.0.0",
+  "description": "Devburger API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Geórgia Santos",
+    "url": "https://github.com/georgiasantos-frontend"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "sequelize-cli": "^6.6.2",
+    "sucrase": "^3.35.0"
+  }
+}
